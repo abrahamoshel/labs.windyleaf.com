@@ -1,6 +1,6 @@
 
-if [[ -s "/home/labdev/.rvm/gems/ruby-1.9.3-p194@refinery" ]] ; then
-  . "/home/labdev/.rvm/gems/ruby-1.9.3-p194@refinery"
+if [[ -s "/home/labdev/.rvm/gems/ruby-1.9.3-p194@labs.windyleaf.com" ]] ; then
+  . "/home/labdev/.rvm/gems/ruby-1.9.3-p194@labs.windyleaf.com"
 else
   rvm --create use  "ruby-1.9.3-p125@labs.windyleaf.com"
 fi
