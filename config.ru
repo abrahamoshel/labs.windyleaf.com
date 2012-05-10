@@ -3,8 +3,8 @@
 require 'rubygems'
 require 'bundler'
 
-ENV['GEM_HOME']="/home/labdev/.rvm/gems/ruby-1.9.3-p194@refinery"
-ENV['GEM_PATH']="/home/labdev/.rvm/gems/ruby-1.9.3-p194@refinery:/home/labdev/.rvm/gems/ruby-1.9.3-p194@global"
+ENV['GEM_HOME']="/home/labdev/.rvm/gems/ruby-1.9.3-p194@labs.windyleaf.com"
+ENV['GEM_PATH']="/home/labdev/.rvm/gems/ruby-1.9.3-p194@labs.windyleaf.com:/home/labdev/.rvm/gems/ruby-1.9.3-p194@global"
 
 Gem.clear_paths
 Bundler.require
