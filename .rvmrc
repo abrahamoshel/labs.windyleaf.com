@@ -1,1 +1,6 @@
-rvm ruby-1.9.3-p125@labs.windyleaf.com --create
+
+if [[ -s "/home/labdev/.rvm/gems/ruby-1.9.3-p194@refinery" ]] ; then
+  . "/home/labdev/.rvm/gems/ruby-1.9.3-p194@refinery"
+else
+  rvm --create use  "ruby-1.9.3-p125@labs.windyleaf.com"
+fi
